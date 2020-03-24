@@ -3,8 +3,8 @@ FROM python:3-slim
 COPY . /src
 
 RUN pip install --upgrade /src && \
-    cp /usr/local/bin/eagle_exporter /eagle_exporter
+    cp /usr/local/bin/aquanta_exporter /aquanta_exporter
 
 EXPOSE 9597
 
-ENTRYPOINT ["/eagle_exporter"]
+ENTRYPOINT ["/aquanta_exporter"]

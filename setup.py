@@ -2,7 +2,7 @@ import setuptools
 
 
 setuptools.setup(
-    name="eagle_exporter",
+    name="aquanta_exporter",
     version="0.0.1",
     author="Steven Brudenell",
     author_email="steven.brudenell@gmail.com",
@@ -13,7 +13,7 @@ setuptools.setup(
     ],
     entry_points={
         "console_scripts": [
-            "eagle_exporter = eagle_exporter:exporter_main",
+            "aquanta_exporter = aquanta_exporter:exporter_main",
         ],
     },
 )
